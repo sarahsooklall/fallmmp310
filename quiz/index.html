@@ -1,11 +1,12 @@
 <!doctype html>
 <html>
 <head>
-	<title>Madlibs</title>
-	<link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+	<title>Quiz Game</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
+
 <body>
     <div class="navbar">
             <a href="index.html">Home</a>
@@ -32,13 +33,33 @@
             </div> 
         </div>
 	<div id="container">
-		<h1>Madlibs</h1>
-		<p>Input a word for each prompt.</p>
-		<input type="text" placeholder="exclamation!" id="exclamation">
-		<input type="text" id="adverb" placeholder="adverb">
-		<input type="text" id="noun" placeholder="noun">
-		<input type="text" id="adjective" placeholder="adjective">
-		<button id="submit">Submit</button>
+		
+		<div id="qOne">
+			<p>Have you seen Black Panther?</p>
+			<select id="bp">
+				<option>Yes</option>
+				<option>No</option>
+			</select>
+			<button id="qOneBtn">Submit</button>
+		</div>
+		
+		<div id="qTwo">
+			<p>Who was the lead actor?</p>
+			<select id="actor">
+				<option>Will Smith</option>
+				<option>Tyler Perry</option>
+				<option>Chadwick Boseman</option>
+			</select>
+			<button id="qTwoBtn">Submit</button>
+		</div>
+		
+		<div id="qThree">
+			<p>Why not?</p>
+			<textarea id="whyNot"></textarea>
+			<br>
+			<button id="qThreeBtn">Submit</button>
+		</div>
+	
 	</div>
 	
 	<script src="app.js"></script>

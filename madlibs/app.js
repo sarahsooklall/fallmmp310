@@ -15,7 +15,13 @@ submitButton.onclick = function() {
 		get all of the words, generate our story
 	*/
 	const message = document.createElement("p");
-	message.textContent = exclamationInput.value
+	document.body.appendChild(message);
+	
+	/*
+		use a conditional to test if value was inputed
+	*/
+	if (exclamationInput.value) {
+		message.textContent = exclamationInput.value
 							+ " he said "
 							+ adverbInput.value
 							+ " as he jumped into his convertible "
@@ -23,5 +29,16 @@ submitButton.onclick = function() {
 							+ " and drove off with his "
 							+ adjectiveInput.value
 							+ " wife."
-	document.body.appendChild(message);
+	} else {
+		message.textContent = "You forgot to add an exclamation!";	
+	}
+	
 };
+	
+	
+	
+	
+	
+	
+	
+	
