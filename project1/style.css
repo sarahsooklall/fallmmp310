@@ -1,0 +1,100 @@
+body{
+    font-family: Helvetica, sans-serif;
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    margin: 0;
+}
+
+p{
+    line-height: 1.6;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+h4{
+    line-height: 1.6;
+}
+
+/*
+ * Line Break
+ */
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*
+ * Buttons
+ */
+#whiteB{
+    margin-top: 10px;
+}
+#whiteB, #blackB {
+    padding: 5px;
+}
+
+/*
+ * Colors 
+ */
+#white, #pink, #orange, #yellow, #red, #brown, #green, #purple, #blue, #black {
+    padding: 10px;
+    font-size: 14px;
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+
+}
+#white, #pink, #orange, #yellow, #red{
+    border: #a0a0a0 solid 1px;
+    color: #000;
+}
+#brown, #green, #purple, #blue, #black{
+    border: #a0a0a0 solid 1px;
+    color: #fff;
+}
+#white {
+    background-color: white;
+}
+#pink {
+    background-color: pink;
+}
+#orange {
+    background-color: orange;
+}
+#yellow {
+    background-color: yellow;
+}
+#red {
+    background-color: red;
+}
+#brown {
+    background-color: brown;
+}
+#green {
+    background-color: green;
+}
+#purple {
+    background-color: purple;
+}
+#blue {
+    background-color: blue;
+}
+#black {
+    background-color: black;
+}
+
+/*
+ * Image
+ */
+img{
+    width:auto;
+    height:150px;
+    border:0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
