@@ -1,6 +1,6 @@
 body{
     font-family: Helvetica, sans-serif;
-    position: fixed; /* or absolute */
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -16,6 +16,15 @@ p{
 
 h4{
     line-height: 1.6;
+}
+
+h6{
+    margin: 0;
+}
+
+h1{
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 
 /*
